@@ -1,6 +1,6 @@
 package chapter1;
 
-public class CommentEachLine {
+public class SharpenYourPencil {
 	
 	public static void main(String[] args) {
 		System.out.println("This class was created to just complete an exercise in Chapter 1, "
