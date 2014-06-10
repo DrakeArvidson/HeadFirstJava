@@ -1,0 +1,18 @@
+Be the Compiler:
+
+A) In the class TapeDeckTestDrive it is referencing a variable t, but t was never set to anything.
+First would need to set t,
+TapeDeck t = new TapeDeck();
+Now it would compile and run.  Here is what the output would be:
+"tape playing"
+"tape recording"
+
+B) In the class DVDPlayerTestDrive it calls a method playDVD(), but that method doesn't exist.
+In the class DVDPlayer we can create the method:
+void playDVD() {
+  System.out.println("DVD playing");
+}
+
+Now it can run and the output would be:
+"DVD playing"
+"DVD recording"
