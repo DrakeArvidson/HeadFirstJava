@@ -1,0 +1,7 @@
+Five-Minute Mystery
+
+Bob creates an array an sets the length to 10.  He then creates 10 contacts and puts them into the array, from index 0 to 9.
+You can then access any of the contacts that you want by using ca[number of the contact].
+
+Kent creates 10 different contacts, but he overwrites the reference to them each time through his loop.
+There is no way to reference the first 9 contacts that he referenced with his method.

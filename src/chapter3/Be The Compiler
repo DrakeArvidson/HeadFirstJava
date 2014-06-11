@@ -1,0 +1,22 @@
+Be The Compiler
+
+A) The array of books, myBooks, was created, but the books also need to be created
+for each spot of the array:
+myBooks[0] = new Books();
+myBooks[1] = new Books();
+myBooks[2] = new Books();
+
+B) The array of Hobbits is length 3, meaning it has indices of 0, 1, 2.  In the while loop, it runs while z < 4, meaning z can be 3.
+If it tries to get h[3], this will throw an error.  Instead the while loop should run only as long as z < 3.
+Along the same lines, z is incremented at the beginning of the while loop, so we never hit h[0], but this means when z is 2,
+it will enter the loop and then increment z to 3 and try accessing h[3], which again will fail.  So incrementing z should happen
+after every other line of code in the while loop.
+
+This is what the loop should look like
+while (z < 3) {
+  ...
+  ...if
+  ...if
+  ...
+  z = z + 1;
+}
