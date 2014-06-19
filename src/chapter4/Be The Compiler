@@ -1,0 +1,7 @@
+Be the Compiler, Chapter 4
+
+A)  This complies successfully and won't result in any errors.  The output would be:
+42 84
+
+B)  The getter method is currently set to void, it needs to have a return type of String.  Once that is fixed, the output will be:
+time: 1245
