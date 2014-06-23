@@ -1,0 +1,20 @@
+Mixed Messages, chapter 4
+x < 9
+index < 5
+output: 14 1
+
+
+x < 20
+index < 5
+output: 25 1
+
+
+x < 7
+index < 7
+output: 14 1
+
+
+x < 19
+index < 1
+output: 20 1
+

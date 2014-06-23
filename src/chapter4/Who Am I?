@@ -1,15 +1,15 @@
 Who Am I? Chapter 4
 
-A class can have any number of these.
-A method can have only one of these.
-This can be implicitly promoted.
-I prefer my instance variables private.
-It really means 'make a copy'.
-Only setters should update these.
-A method can take many of these.
-I return something by definition.
-I shouldn't be used with instance variables.
-I can have many arguments.
-By definition, I take one argument.
-These help create encapsulation.
-I always fly solo.
+A class can have any number of these.					Instance variable, getter, setter, method
+A method can have only one of these.					return
+This can be implicitly promoted.						return, argument
+I prefer my instance variables private.					encapsulation
+It really means 'make a copy'.							pass by value
+Only setters should update these.						Instance variables
+A method can take many of these.						argument
+I return something by definition.						getter
+I shouldn't be used with instance variables.			public
+I can have many arguments.								method
+By definition, I take one argument.						setter
+These help create encapsulation.						public private getter setter
+I always fly solo.										return
